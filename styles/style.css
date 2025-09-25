@@ -28,6 +28,10 @@
 .secondery-bac{
     background-color: #FFF8F3;
 }
+
+.text-center{
+    text-align: center;
+}
 nav {
     display: flex;
     align-items: center;
@@ -56,7 +60,7 @@ nav ul li a{
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
-    border: none ;
+    border: none;
     color: white;
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
@@ -113,4 +117,23 @@ nav ul li a{
 }
 .item-des{
     font-weight: 600;
+}
+.skills{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
 }
